@@ -1,5 +1,7 @@
-High-Low
+#### High-Low
+
 I. Initiative
+
 Overview of the project itself
 
 The project is known as High-Low. High-Low is a game that allows the computer to ask for 
