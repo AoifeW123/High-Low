@@ -1,12 +1,12 @@
 # High-Low
 
-I. Initiative
+### I. Initiative
 
 Overview of the project itself
 
 The project is known as High-Low. High-Low is a game that allows the computer to ask for 
 
-II. Epics and User Stories
+### II. Epics and User Stories
 Epics
 Outlining the main fuctions of the game
 
@@ -40,8 +40,8 @@ I would like to see if after the game has been played if i can play agian or jus
 How We Addressed The Requirements
 How will your planned product meet the user requirements
 
-III. Genre
-IV. Technical Details
+### III. Genre
+### IV. Technical Details
 Platform
 Programming Language/Enviroment
 Programming Challenges
