@@ -10,7 +10,7 @@ The project is known as High-Low. High-Low is a game that allows the computer to
 Epics
 Outlining the main fuctions of the game
 
-The first main function will be to have the computer 
+The first main function will be to have the computer pciking a number between 1 and 10.
 
 The computer will present you with a random number from 1 – 10 inclusive
 Then, the computer will ask “Will you roll higher or lower?” 
