@@ -2,17 +2,18 @@
 
 ### I. Initiative
 
-The project is known as High-Low. High-Low is a game that allows the computer to pick a number between 1 to 10 from a 10 sided die.  The game aspects is that the player has to guess the number, after being ask to guess if the number is higher or lower.  The computer will then simulate another dice roll which will be on behalf of the player. The answer given will be compared to the computer's number. After the computer will display "You Win" or "You Lose", depending on if the guess meet the conditions or not. The computer will also display the message "Draw" if the player has the same number as the computer. The player will then have the ability to restart the game or quit the game through entering a Y (restarting the game) / N (for quiting the gmae).
+The project is known as High-Low. High-Low is a game that allows the computer to pick a number between 1 to 10 from a 10 sided die.  The game aspects is that the player has to guess the number, after being ask to if the number is higher or lower.  The computer will then simulate another dice roll which will be on behalf of the player. The answer given will be compared to the computer's number. After the computer will display "You Win" or "You Lose", depending on if the guess meet the conditions or not. The computer will also display the message "Draw" if the player has the same number as the computer. The player will then have the ability to restart the game or quit the game through entering a Y (restarting the game) / N (for quiting the gmae).
 
 ### II. Epics and User Stories
 Epics
 Outlining the main fuctions of the game
 
-The first main function will be to have the computer picking a number between 1 and 10.
+The first main function will be to have the computer picking a number between 1 and 10, this can be through the function name randomNum. This will be set from a random number generator.
 
-The computer will present you with a random number from 1 – 10 inclusive
-Then, the computer will ask “Will you roll higher or lower?” 
-The player is asked to predict whether the next number will be of higher or lower
+The second function would be getting the player to input a choice of "Higher or Lower" and storing that in a variable. This will be known as playerChoice. This variable will then compared with the next function. 
+
+The computer will use a function known as DiceRoll to generate the players number, again between 1 and 10. THis will be displayed to the user. 
+
 The computer simulates a dice roll on behalf of the player which generates a number from 1 – 10 inclusive
 The computer returns the number the dice rolled and a suitable message such as “You Win!” or “You Lose!”
 If the dice roll and the computer’s number are the same, the computer displays a message saying “Draw!”
