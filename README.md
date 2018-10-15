@@ -2,8 +2,6 @@
 
 ### I. Initiative
 
-Overview of the project itself
-
 The project is known as High-Low. High-Low is a game that allows the computer to pick a number between 1 to 10 from a 10 sided die.  The game aspects is that the player has to guess the number, after being ask to guess if the number is higher or lower.  The computer will then simulate a dice roll which will be on behalf of the player. The answer given will be compared to the computer's number. After the computer will display "You Win" or "You Lose", depending on if the guess meet the conditions or not. The computer will also display the message "Draw" if the player has the same number as the computer.
 
 ### II. Epics and User Stories
