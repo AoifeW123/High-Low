@@ -1,4 +1,4 @@
-#### High-Low
+# High-Low
 
 I. Initiative
 
