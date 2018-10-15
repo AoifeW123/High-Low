@@ -2,13 +2,13 @@
 
 ### I. Initiative
 
-The project is known as High-Low. High-Low is a game that allows the computer to pick a number between 1 to 10 from a 10 sided die.  The game aspects is that the player has to guess the number, after being ask to guess if the number is higher or lower.  The computer will then simulate a dice roll which will be on behalf of the player. The answer given will be compared to the computer's number. After the computer will display "You Win" or "You Lose", depending on if the guess meet the conditions or not. The computer will also display the message "Draw" if the player has the same number as the computer.
+The project is known as High-Low. High-Low is a game that allows the computer to pick a number between 1 to 10 from a 10 sided die.  The game aspects is that the player has to guess the number, after being ask to guess if the number is higher or lower.  The computer will then simulate another dice roll which will be on behalf of the player. The answer given will be compared to the computer's number. After the computer will display "You Win" or "You Lose", depending on if the guess meet the conditions or not. The computer will also display the message "Draw" if the player has the same number as the computer. The player will then have the ability to restart the game or quit the game through entering a Y (restarting the game) / N (for quiting the gmae).
 
 ### II. Epics and User Stories
 Epics
 Outlining the main fuctions of the game
 
-The first main function will be to have the computer pciking a number between 1 and 10.
+The first main function will be to have the computer picking a number between 1 and 10.
 
 The computer will present you with a random number from 1 – 10 inclusive
 Then, the computer will ask “Will you roll higher or lower?” 
@@ -30,7 +30,7 @@ I would like to have the computer create a simulated dice roll that picks a numb
 
 I would like to see the computer compare my answer to the number generated. After the comparison the computer should respond with either a "You win" or "You Lose". This is unless we both guess the same number then I would exspect to see "Draw!"
 
-I would like to see if after the game has been played if i can play agian or just end the game through an input
+I would like to see if after the game has been played if i can play agian or just end the game through an input of Y / N
 
 
 
