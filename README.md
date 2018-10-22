@@ -65,6 +65,8 @@ Standard for the code you will be writting
 ### VI. Project Management
 Burndown Chart
 Example Burndown Chart
+![](https://github.com/AoifeW123/High-Low/blob/master/Burndown.jpg)
+
 
 Chart showing the completion of user stories over time
 
