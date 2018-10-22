@@ -36,8 +36,6 @@ I would like to see the computer compare my answer to the number generated. Afte
 I would like to see if after the game has been played if i can play agian or just end the game through an input of Y / N
 
 
-
-
 How We Addressed The Requirements
 How will your planned product meet the user requirements
 
@@ -46,10 +44,11 @@ How will your planned product meet the user requirements
 A guessing game that allows the user to input a guess and the user will wither win or lose.
 
 ### IV. Technical Details
-Platform
 
 The platform that is going to be used is C++. C++ uses an IDE which will help with the syntax issues and debugging. Using C++ will allow the use of autocompletion. This is where once a string / fucntion has been created the programming language will recognise it and recommened it each time the word is typed in. It can also suggest other autocompletion for generic piece of code.
+
 Programming Language/Enviroment
+
 Programming Challenges
 State the programing challenges you are trying to overcome
 
