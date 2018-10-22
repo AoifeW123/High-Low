@@ -76,5 +76,7 @@ Table showing user stories with weighting, due date and completion state
 Flowchart
 Flowchart showing how the program will work
 
+![](https://github.com/AoifeW123/High-Low/blob/master/High%20N%20Low%20FlowChart.jpg)
+
 Functions
 Descriptions of functions given on flowchart
