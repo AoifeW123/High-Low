@@ -23,6 +23,8 @@ The game then asks the user if they want to play again. If they user types â€œyâ
 Non-Functional Requirements
 Asthetic or non essential requirements
 
+
+
 User Stories:
 
 As a player, I would like to be able to have the computer ask me for my guess input.
@@ -40,8 +42,13 @@ How We Addressed The Requirements
 How will your planned product meet the user requirements
 
 ### III. Genre
+
+A guessing game that allows the user to input a guess and the user will wither win or lose.
+
 ### IV. Technical Details
 Platform
+
+The platform that is going to be used is C++. C++ uses an IDE which will help with the syntax issues and debugging. Using C++ will allow the use of autocompletion. This is where once a string / fucntion has been created the programming language will recognise it and recommened it each time the word is typed in. It can also suggest other autocompletion for generic piece of code.
 Programming Language/Enviroment
 Programming Challenges
 State the programing challenges you are trying to overcome
