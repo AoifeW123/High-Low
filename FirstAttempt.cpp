@@ -11,13 +11,13 @@ int main()
 
 	srand(time(0)); //seed random number generator
 
-  // THis will be a numbe chosen randomly by the computer 
+  // This will be a numbe chosen randomly by the computer 
 	GeneratedNum = rand() % 10 + 1; // random number between 1 and 10
   
   //This will be a number provided by the user, from an input.
   //Needs to change from a user input to a another generated number
 
-  int PlayersGuess = rand() % 10 + 1;
+	PlayerGuess= rand() % 10 + 1; // random number between 1 and 10
 
 	cout << "Welcome to Higher or Lower! The game  Where you have to Guess if you number will be higher or lower!\n\n";
 
@@ -25,9 +25,8 @@ int main()
 
 	{
 
-		cout << "Enter a guess between 1 and 10 : ";
+		cout << "You number is: "  << PlayersGuess << "!";
 
-		cin >> PlayersGuess;
 
 		;
 
