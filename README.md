@@ -12,17 +12,20 @@ The first main function will be to have the computer picking a number between 1 
 
 The second function would be getting the player to input a choice of "Higher or Lower" and storing that in a variable. This will be known as playerChoice. This variable will then compared with the next function. 
 
-The computer will use a function known as DiceRoll to generate the players number, again between 1 and 10. THis will be displayed to the user. 
+The computer will use a function known as DiceRoll to generate the players number, again between 1 and 10. This will be displayed to the user. 
 
-The computer simulates a dice roll on behalf of the player which generates a number from 1 – 10 inclusive
+
 The computer returns the number the dice rolled and a suitable message such as “You Win!” or “You Lose!”
 If the dice roll and the computer’s number are the same, the computer displays a message saying “Draw!”
 The game then asks the user if they want to play again. If they user types “y” The game starts over. If the user types “n”, the game ends.
 
-
 Non-Functional Requirements
-Asthetic or non essential requirements
 
+Through the function playerChoice, the program will ask the user to input a guess.
+
+If this guess is anything but higher or lower, then the same prompt should happen again. Only accepting the appropriate answers.
+
+It should state who won the game, by replying "You Win", "You Lose" or "Draw".
 
 
 User Stories:
@@ -39,7 +42,9 @@ I would like to see if after the game has been played if i can play agian or jus
 How We Addressed The Requirements
 How will your planned product meet the user requirements.
 
-The first step in planning for the requirements is to identfy was is being asked from the breif 
+Using 
+
+The first step in planning for the requirements is to identfy what is being asked from the breif. From the brief, using the flowchart below and research will allow the full development of the program.
 
 ### III. Genre
 
