@@ -5,8 +5,8 @@
 The project is known as High-Low. High-Low is a game that allows the computer to pick a number between 1 to 10 from a 10 sided die.  The game aspects is that the player has to guess the number, after being ask to if the number is higher or lower.  The computer will then simulate another dice roll which will be on behalf of the player. The answer given will be compared to the computer's number. After the computer will display "You Win" or "You Lose", depending on if the guess meet the conditions or not. The computer will also display the message "Draw" if the player has the same number as the computer. The player will then have the ability to restart the game or quit the game through entering a Y (restarting the game) / N (for quiting the game).
 
 ### II. Epics and User Stories
+
 Epics
-Outlining the main fuctions of the game
 
 The first main function will be to have the computer picking a number between 1 and 10, this can be through the function name randomNum. This will be set from a random number generator.
 
@@ -44,7 +44,7 @@ How will your planned product meet the user requirements.
 
 Using 
 
-The first step in planning for the requirements is to identfy what is being asked from the breif. From the brief, using the flowchart below and research will allow the full development of the program.
+The first step in planning for the requirements is to identfy what is being asked from the project. From the brief, using the flowchart below and research will allow the full development of the program. Breaking down each requirement and assessing how to appoarch them, will be how to plan to meet the user requirements.
 
 ### III. Genre
 
