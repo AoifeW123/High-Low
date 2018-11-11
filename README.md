@@ -14,7 +14,6 @@ The second function would be getting the player to input a choice of "Higher or 
 
 The computer will use a function known as DiceRoll to generate the players number, again between 1 and 10. This will be displayed to the user. 
 
-
 The computer returns the number the dice rolled and a suitable message such as “You Win!” or “You Lose!”
 If the dice roll and the computer’s number are the same, the computer displays a message saying “Draw!”
 The game then asks the user if they want to play again. If they user types “y” The game starts over. If the user types “n”, the game ends.
@@ -38,11 +37,7 @@ I would like to see the computer compare my answer to the number generated. Afte
 
 I would like to see if after the game has been played if i can play agian or just end the game through an input of Y / N
 
-
 How We Addressed The Requirements
-How will your planned product meet the user requirements.
-
-Using 
 
 The first step in planning for the requirements is to identfy what is being asked from the project. From the brief, using the flowchart below and research will allow the full development of the program. Breaking down each requirement and assessing how to appoarch them, will be how to plan to meet the user requirements.
 
