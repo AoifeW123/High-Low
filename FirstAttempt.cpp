@@ -43,7 +43,7 @@ int main()
   // This is creating the outcome than will state the winner or if there has been a draw.
     if (Choice == 'h' || Choice== 'l')
     {
-      cout << "you have rolled " << PlayersNum;
+      cout << "You rolled a " << PlayersNum;
       if (Choice == 'h') 
         {
         if (PlayersNum>GeneratedNum)
