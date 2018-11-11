@@ -193,3 +193,4 @@ Finally this section is asking if the user wants to play the game again:
         }
 
 
+#### VII. Evaluation
