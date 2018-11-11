@@ -1,58 +1,71 @@
 #include <iostream>
+#include <stdlib.h>
+#include <time.h>
 #include <cstdlib>
-#include <ctime>
+#include <ctime> 
 using namespace std;
 
-int main()
-
+int main() 
 {
-
-	int GeneratedNum, PlayerGuess;
-
-	srand(time(0)); //seed random number generator
-
-  // This will be a numbe chosen randomly by the computer 
-	GeneratedNum = rand() % 10 + 1; // random number between 1 and 10
+  int  GeneratedNum;
+  int  PlayersNum;
+  char Choice;
+  char Replay = 'y';
   
-  //This will be a number provided by the user, from an input.
-  //Needs to change from a user input to a another generated number
+  cout << "Welcome to guess higher or lower!" << endl;
+ cout << "This game provides a number and you have to guess if your number will be higher or lower!" << endl; 
 
-	PlayerGuess= rand() % 10 + 1; // random number between 1 and 10
+  while (Replay == 'y')
+  {
+    srand (time(NULL));
+    GeneratedNum = rand() % 10 + 1;
 
-	cout << "Welcome to Higher or Lower! The game  Where you have to Guess if you number will be higher or lower!\n\n";
-
-	do
-
-	{
-
-		cout << "You number is: "  << PlayersGuess << "!";
-
-
-		;
-
-		if (PlayersGuess > GeneratedNum)
-
-			cout << "Too high!\n\n";
-
-		else if (PlayersGuess < GeneratedNum)
-
-			cout << "Too low!\n\n";
-
-		
-    else if (PlayersGuess == GeneratedNum)
-
-      cout<< "Draw!\n";
+    srand (time_t(rand()));
+    PlayersNum = rand() % 10 + 1;
     
+    cout << "Lets go! Firstly my number is: " << GeneratedNum << endl;
+    
+    cout << "Now it is your turn to guess if your number is higher or lower!"
+     << endl;
+    
+    cout<< "Good Luck! \nHigher:h\nLower:l \n";
+    
+    cin >>Choice;
+
+
+    if (Choice == 'h' || Choice== 'l')
+    {
+      cout << "you have rolled " << PlayersNum;
+      if (Choice == 'h') 
+        {
+        if (PlayersNum>GeneratedNum)
+          {
+            cout << "\nYou win";
+         }
+         else if (PlayersNum<GeneratedNum)
+          {
+            cout << "\nYou lose";
+         }
+         else if (PlayersNum==GeneratedNum)
+          {
+            cout << "\nDraw";
+         }
+       }
   
-
-	} while (PlayersGuess != GeneratedNum);
-
-
-
-	cin.ignore();
-
-	cin.get();
-
-	return 0;
-
-}
+     if (Choice == 'l')
+        {
+        if (PlayersNum<GeneratedNum)
+          {
+            cout << "\nYou win";
+          }
+          else if (PlayersNum>GeneratedNum)
+           {
+           cout << "\nYou lose";
+          }
+          else if (PlayersNum==GeneratedNum)
+          {
+           cout << "\nDraw";
+         }
+       }
+    }
+  }
