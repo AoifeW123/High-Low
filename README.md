@@ -114,19 +114,17 @@ Flowchart showing how the program will work
 
 Here is the two different generated numbers that both will pick a number between 1 and 10.
 
-  int  GeneratedNum;
-  int  PlayersNum;
-  char Choice;
-  char Replay = 'y';
- cout << "Welcome to guess higher or lower!" << endl;
- cout << "This game provides a number and you have to guess if your number will be higher or lower!" << endl; 
-
-  while (Replay == 'y')
-  {
+        int  GeneratedNum;
+        int  PlayersNum;
+     char Choice;
+     char Replay = 'y';
+        cout << "Welcome to guess higher or lower!" << endl;
+        cout << "This game provides a number and you have to guess if your number will be higher or lower!" << endl; 
+      while (Replay == 'y')
+    {
       srand (time(NULL));
     GeneratedNum = rand() % 10 + 1;
-  
-   srand (time_t(rand()));
+     srand (time_t(rand()));
     PlayersNum = rand() % 10 + 1;
 
 
