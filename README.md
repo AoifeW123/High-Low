@@ -91,6 +91,8 @@ https://en.cppreference.com/w/cpp/language
 
 http://www.cplusplus.com/doc/tutorial/
 
+https://mathbits.com/MathBits/CompSci/LibraryFunc/rand.htm
+
 ### VI. Project Management
 
 ##### Burndown Chart
@@ -111,7 +113,22 @@ Flowchart showing how the program will work
 ##### Functions
 
 Here is the two different generated numbers that both will pick a number between 1 and 10.
-![]()
+
+  int  GeneratedNum;
+  int  PlayersNum;
+  char Choice;
+  char Replay = 'y';
+ cout << "Welcome to guess higher or lower!" << endl;
+ cout << "This game provides a number and you have to guess if your number will be higher or lower!" << endl; 
+
+  while (Replay == 'y')
+  {
+      srand (time(NULL));
+    GeneratedNum = rand() % 10 + 1;
+  
+   srand (time_t(rand()));
+    PlayersNum = rand() % 10 + 1;
+
 
 This function will display the both the numbers on the screen, at different times:
 ![]()
