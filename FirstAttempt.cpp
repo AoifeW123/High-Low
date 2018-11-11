@@ -79,4 +79,8 @@ int main()
        }
     }
     //add the replay function here
+    cout << "\nDo you dare play again? y/n\n";
+  cin >> Replay;
+  }
+  cout << "Good Game, Bye!!!";
   }
