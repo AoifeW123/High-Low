@@ -129,18 +129,67 @@ Here is the two different generated numbers that both will pick a number between
 
 
 This function will display the both the numbers on the screen, at different times:
-![]()
+
+                  cout << "Lets go! Firstly my number is: " << GeneratedNum << endl;
+                  cout << "Now it is your turn to guess if your number is higher or lower!"
+                    << endl;
+                    ...
+                   cout << "You rolled a " << PlayersNum;
 
 This fucntion is asking for the user to guess if they think the number will be higher or lower:
-![]()
+
+            cout << "Now it is your turn to guess if your number is higher or lower!" << endl;
+            cout<< "Good Luck! \nHigher:h\nLower:l \n";
+                        
+               cin >>Choice;
+
+                    if (Choice == 'h' || Choice== 'l')
+               {
+                        cout << "You rolled a " << PlayersNum;
+                  if (Choice == 'h') 
+                   {
+                        if (PlayersNum>GeneratedNum)
+                   {
+                        cout << "\nYou win";
+                   }
+                        else if (PlayersNum<GeneratedNum)
+                   {
+                        cout << "\nYou lose";
+                   }
+                        else if (PlayersNum==GeneratedNum)
+                   {
+                        cout << "\nDraw";
+                    }
+                }
 
 This if / while function is going to compare the answer given with the numbers to determin who has won, through a set of conditions:
-![]()
 
+                
+     if (Choice == 'l')
+        {
+        if (PlayersNum<GeneratedNum)
+          {
+            cout << "\nYou win";
+          }
+          else if (PlayersNum>GeneratedNum)
+           {
+           cout << "\nYou lose";
+          }
+       
 This section is showing what should happen if both of the numbers that have been generated are the same number - "Draw":
-![]()
+                
+          else if (PlayersNum==GeneratedNum)
+                {
+                 cout << "\nDraw";
+                }
+            }
 
 Finally this section is asking if the user wants to play the game again:
-![]()
+
+        cout << "\nDo you dare play again? y/n\n";
+         cin >> Replay;
+        }
+                cout << "Good Game, Bye!!!";
+        }
 
 
