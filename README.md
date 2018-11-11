@@ -8,15 +8,15 @@ The project is known as High-Low. High-Low is a game that allows the computer to
 
 ##### Epics
 
-The first main function will be to have the computer picking a number between 1 and 10, this can be through the function name randomNum. This will be set from a random number generator.
+The first main function will be to have the computer picking a number between 1 and 10, this can be through the function name GeneratedNum. This will be set from a random number generator.
 
-The second function would be getting the player to input a choice of "Higher or Lower" and storing that in a variable. This will be known as playerChoice. This variable will then compared with the next function. 
+The second function would be getting the player to input a choice of "Higher or Lower" and storing that in a variable. This will be known as "Choice". This variable will then compared with the next function. 
 
-The computer will use a function known as DiceRoll to generate the players number, again between 1 and 10. This will be displayed to the user. 
+The computer will use a function known as "PlayersNum" to generate the players number, again between 1 and 10. This will be displayed to the user. 
 
-The computer returns the number the dice rolled and a suitable message such as “You Win!” or “You Lose!”. If the dice roll and the computer’s number are the same, the computer displays a message saying “Draw!”
+The computer returns the number the dice rolled and a suitable message such as “You Win!” or “You Lose!”. If the dice roll and the computer’s number are the same, the computer displays a message saying “Draw!”. This will be apart of the "Choice" fucntion.
 
-The game then asks the user if they want to play again. If they user types “y” The game starts over. If the user types “n”, the game ends.
+The game then asks the user if they want to play again. If they user types “y” The game starts over. If the user types “n”, the game ends. This will be known as the array "Replay".
 
 ##### Non-Functional Requirements
 
