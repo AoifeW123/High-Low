@@ -43,7 +43,7 @@ The first step in planning for the requirements is to identfy what is being aske
 
 ### III. Genre
 
-A guessing game that allows the user to input a guess and the user will wither win or lose.
+A guessing game that allows the user to input a guess and the user will either win or lose.
 
 ### IV. Technical Details
 
