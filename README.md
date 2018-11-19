@@ -67,7 +67,7 @@ Using the flowchart and the research breakdown of the requirements, this will gu
 
 ##### Algorithms
 
-TYhe algorithm is based on a set of rules and procedures that are followed, if one rule / procedure is missing then the prgram doesn't work. The rules and procedures work by using problem-solving operations to create an output of some kind. This output is the program that ask the user for their guess and tell the user if they have won the game or not. The algorithm part is the if function. The if function in this program is going to test three scenarios: Generating the two numbers, showing the second number generated and stating if the user has won, lost or drawn. The last part of the algorithm is whether or not the user wants to play the game again; this will be through the use of yes or no.
+The algorithm is based on a set of rules and procedures that are followed, if one rule / procedure is missing then the prgram doesn't work. The rules and procedures work by using problem-solving operations to create an output of some kind. This output is the program that ask the user for their guess and tell the user if they have won the game or not. The algorithm part is the if function. The if function in this program is going to test three scenarios: Generating the two numbers, showing the second number generated and stating if the user has won, lost or drawn. The last part of the algorithm is whether or not the user wants to play the game again; this will be through the use of yes or no.
 
 ##### Coding Standards
 
