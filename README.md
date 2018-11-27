@@ -50,7 +50,9 @@ A guessing game that allows the user to input a guess and the user will either w
 ##### Programming Language/Enviroment
 
 The platform that is going to be used is C++. 
+
 //Talk about how the REPL IT is the IDE that is used. whereas in trecerball i didnt use an IDE, just notepad.
+
 An IDE is a program to help with  which will help with the syntax issues and debugging. Using C++ will allow the use of autocompletion. This is where once a string / fucntion has been created the programming language will recognise it and recommened it each time the word is typed in. It can also suggest other autocompletion for generic piece of code. This was through the online editor "Repl.it": https://repl.it/repls/PlainOutlyingEmacs .
 
 The debugging issue also allowed the IDE to identify the specific issues that occured during testing. If there was a spelling mistake in certain terms then there would be a red line. If there was anything that was missused then a green line, often at times it is when other programming language has been used.
