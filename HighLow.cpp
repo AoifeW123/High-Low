@@ -83,4 +83,6 @@ int main()
   cin >> Replay;
   }
   cout << "Good Game, Bye!!!";
+  // ends the program.
+  return 0;
   }
