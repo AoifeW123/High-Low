@@ -170,7 +170,7 @@ This fucntion is asking for the user to guess if they think the number will be h
                     }
                 }
 
-This if / while function is going to compare the answer given with the numbers to determin who has won, through a set of conditions:
+This if / while function is going to compare the answer given with the numbers to determin who has won, through a set of conditions. This section is going to compare all the possiable outcomes to produce a statement that is clear who has won. This is through the use of seeing if the user's number is greater or less that the generated number:
 
                 
      if (Choice == 'l')
@@ -184,7 +184,7 @@ This if / while function is going to compare the answer given with the numbers t
            cout << "\nYou lose";
           }
        
-This section is showing what should happen if both of the numbers that have been generated are the same number - "Draw":
+This section is showing what should happen if both of the numbers that have been generated are the same number - "Draw". It specfically comapres to see if the users number is equal to the generated number:
                 
           else if (PlayersNum==GeneratedNum)
                 {
