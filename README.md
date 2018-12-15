@@ -51,11 +51,18 @@ A guessing game that allows the user to input a guess and the user will either w
 
 The platform that is going to be used is C++. 
 
-//Talk about how the REPL IT is the IDE that is used. whereas in trecerball i didnt use an IDE, just notepad.
 
-An IDE is a program to help with  which will help with the syntax issues and debugging. Using C++ will allow the use of autocompletion. This is where once a string / fucntion has been created the programming language will recognise it and recommened it each time the word is typed in. It can also suggest other autocompletion for generic piece of code. This was through the online editor "Repl.it": https://repl.it/repls/PlainOutlyingEmacs .
+
+An IDE is a program to help with  which will help with the syntax issues and debugging. Using C++ will allow the use of autocompletion. This is where once a string / fucntion has been created the programming language will recognise it and recommened it each time the word is typed in. It can also suggest other autocompletion for generic piece of code. This was through the online editor "Repl.it": https://repl.it/repls/PlainOutlyingEmacs . The REpl.it website is an IDE that was used. It is an online IDE that was made up of a code editor, Complier, GUI, Debugger and a testing service.
+
+[Common features in an IDE](https://github.com/AoifeW123/Glossary/blob/master/README.md#common-features-in-an-ide)
+
 
 The debugging issue also allowed the IDE to identify the specific issues that occured during testing. If there was a spelling mistake in certain terms then there would be a red line. If there was anything that was missused then a green line, often at times it is when other programming language has been used.
+
+Repl IT was an IDE that was used, when comapred to just a text editor being used (notepad). The reason an IDE is used because it offers a wide range of features. The text editor doesn't have any tools such as a complier and a debugging tool. The text editor is really broadand doesn't offer any guidnece. 
+
+[Challenges in a text editor](https://github.com/AoifeW123/Tracerball#programming-challenges)
 
 
 ##### Programming Challenges
@@ -69,13 +76,28 @@ Constructing And Implementing My Code
 
 Think of this as the method. How will you go about building your program?
 
-Using the flowchart and the research breakdown of the requirements, this will guide the steps that were taken. The first step was to figure out how to generate two diffrent numbers that generate any number from 1 to 10. From here I will use similar code from the last project as a basis for if function that compares the two set of numbers. The use of research was included for when trying to create the user input.
+Using the flowchart and the research breakdown of the requirements, this will guide the steps that were taken. The first step was to figure out how to generate two diffrent numbers that generate any number from 1 to 10. Using the research two numbers were generated.
+
+                srand (time(NULL));
+                GeneratedNum = rand() % 10 + 1;
+                srand (time_t(rand()));
+                PlayersNum = rand() % 10 + 1;
+
+From here I will use similar code from the last project as a basis for if function that compares the two set of numbers. The research also showed that there would need to be two different if functions to set up the comparsion of the numbers. One function would be to see if the user had inputed "h" (for higher) and the other function would to see if the user put a "l" for lower. Which ever answer the user put then the process will be the same: comapre and output who won unless it was a draw.
+
+The use of research was included for when trying to create the user input into a if function. Here the input has to be created and be stored as a variable for use later in the program. The variable also needs to have a term that can be inputted by the user to start the if function comparison. If the term used doesn't match any of the terms in the code then an error occurs.
+
+                if (Choice == 'h')
+                if (Choice == 'l')
+                cin >>Choice;
 
 ##### Algorithms
 
 The algorithm is based on a set of rules and procedures that are followed, if one rule / procedure is missing then the prgram doesn't work. The rules and procedures work by using problem-solving operations to create an output of some kind. This output is the program that ask the user for their guess and tell the user if they have won the game or not. The algorithm part is the if function. The if function in this program is going to test three scenarios: Generating the two numbers, showing the second number generated and stating if the user has won, lost or drawn. The last part of the algorithm is whether or not the user wants to play the game again; this will be through the use of yes or no.
 
 The algorithm will generate two random numbers that are between 1 - 10, compare them to see if one if greater than the other / if they are both the same. Then it will display the user's random number. Then display who won from the comparison. Consluding with the option for the user to play again.
+
+[Algorithms](https://github.com/AoifeW123/Glossary/blob/master/README.md#algorithm)
 
 ##### Coding Standards
 
@@ -88,6 +110,9 @@ The name of the functions and variables are strutured well.
 Making sure that the code is readable and is understood.
 
 Adding comments to the code so that each section is detailed on the use of it.
+
+[In depth coding standards](https://github.com/AoifeW123/Glossary/blob/master/README.md#coding-standards)
+
 
 ### V. Research
 
